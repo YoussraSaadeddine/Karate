@@ -3,7 +3,10 @@
   <groupId>KarateProject</groupId>
   <artifactId>Karate</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
+  <properties> 
+	 <maven.compiler.source>19</maven.compiler.source> 
+     <maven.compiler.target>19</maven.compiler.target>
+  </properties>
   <dependencies>
 	  <!-- https://mvnrepository.com/artifact/com.intuit.karate/karate-core -->
 <dependency>
